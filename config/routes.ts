@@ -16,16 +16,10 @@
     ],
   },
   {
-    path: '/welcome',
-    name: 'welcome',
-    icon: 'smile',
-    component: './Welcome',
-  },
-  {
     path: '/index',
     name: 'index',
     icon: 'smile',
-    component: './Index',
+    component: './index',
   },
   {
     path: '/table',
@@ -41,8 +35,8 @@
         name: 'table2',
         path: '/table/table2',
         component: './Table/Table2',
-      }
-    ]
+      },
+    ],
   },
   // {
   //   path: '/index',
